@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_files/providers/products_provider.dart';
+import 'package:riverpod_files/providers/cart_provider.dart';
 
 class CartScreen extends ConsumerStatefulWidget {
   //for stateful widgits
@@ -16,7 +16,7 @@ class _CartScreenState extends ConsumerState<CartScreen> {
   @override
   Widget build(BuildContext context) {
     //we dont need to accept the ref in the build arguement
-    final cartProducts = ref.watch(reducedProductsProvider);
+    final cartProducts = ref.watch(cartNotifierProvider);
 
     return Scaffold(
       appBar: AppBar(
