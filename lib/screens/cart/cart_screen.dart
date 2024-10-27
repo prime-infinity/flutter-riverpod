@@ -17,6 +17,7 @@ class _CartScreenState extends ConsumerState<CartScreen> {
   Widget build(BuildContext context) {
     //we dont need to accept the ref in the build arguement
     final cartProducts = ref.watch(cartNotifierProvider);
+    final total = ref.watch(cartTotalProvider);
 
     return Scaffold(
       appBar: AppBar(
@@ -44,7 +45,7 @@ class _CartScreenState extends ConsumerState<CartScreen> {
                 );
               }).toList(), // output cart products here
             ),
-
+            Text("Total Price - $total")
             // output totals here
           ],
         ),
