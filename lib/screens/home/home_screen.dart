@@ -43,7 +43,11 @@ class HomeScreen extends ConsumerWidget {
                   Text('#${allProducts[index].price}'),
                   if (cartProducts.contains(allProducts[index]))
                     TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        ref
+                            .read(cartNotifierProvider.notifier)
+                            .removeProduct(allProducts[index]);
+                      },
                       child: const Text(
                         'Remove',
                         style: TextStyle(color: Colors.red),
@@ -51,7 +55,11 @@ class HomeScreen extends ConsumerWidget {
                     ),
                   if (!cartProducts.contains(allProducts[index]))
                     TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        ref
+                            .read(cartNotifierProvider.notifier)
+                            .addProduct(allProducts[index]);
+                      },
                       child: const Text('Add to Cart'),
                     ),
                 ],
