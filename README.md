@@ -9,7 +9,6 @@ This is a simple Flutter project that demonstrates the usage of the Riverpod sta
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Dependencies](#dependencies)
-- [Credits](#credits)
 
 ## Introduction
 
