@@ -27,11 +27,11 @@ To get started with the Riverpod Files project, follow these steps:
 
 1.  Clone the repository:
 
-`git clone https://github.com/your-username/riverpod-files.git`
+`git clone https://github.com/your-username/prime-infinity/flutter-riverpod.git`
 
 1.  Navigate to the project directory:
 
-`cd riverpod-files`
+`cd flutter-riverpod-tutorial-starter-project`
 
 1.  Install the dependencies:
 
