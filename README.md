@@ -9,6 +9,7 @@ This is a simple Flutter project that demonstrates the usage of the Riverpod sta
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Dependencies](#dependencies)
+- [Credits](#Credits)
 
 ## Introduction
 
@@ -61,6 +62,11 @@ The Riverpod Files project uses the following dependencies:
 - `flutter_riverpod`: ^2.1.3
 - `riverpod_annotation`: ^2.0.0
 - `riverpod_generator`: ^2.0.0
+
+## Credits
+
+This project was made by following iamshaunjp riverpod tutorials
+`https://github.com/iamshaunjp/flutter-riverpod-tutorial`
 
 ## media
 
