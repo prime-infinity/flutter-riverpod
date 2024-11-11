@@ -28,25 +28,17 @@ To get started with the Riverpod Files project, follow these steps:
 
 1.  Clone the repository:
 
-Copy
-
 `git clone https://github.com/your-username/riverpod-files.git`
 
 1.  Navigate to the project directory:
-
-Copy
 
 `cd riverpod-files`
 
 1.  Install the dependencies:
 
-Copy
-
 `flutter pub get`
 
 1.  Run the app:
-
-Copy
 
 `flutter run`
 
