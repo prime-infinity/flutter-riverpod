@@ -38,8 +38,3 @@ int cartTotal(ref) {
   }
   return total;
 }
-
-//pretty verbose code, just try to understand
-/*final cartNotifierProvider = NotifierProvider<CartNotifier, Set<Product>>(() {
-  return CartNotifier();
-});*/
